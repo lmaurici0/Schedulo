@@ -1,0 +1,90 @@
+.container {
+  margin: 0 40px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a202c;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.welcome p {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.3;
+    margin-bottom: 50px;
+}
+
+.banner {
+  height: 50px;
+  background: linear-gradient(90deg, #44b79a 0%, #8db95a 100%);
+  border-radius: 8px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.profileSection {
+  display: flex;
+  gap: 40px;
+}
+
+.leftSide {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.userPhotoLarge {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.userInfo h2 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+.userInfo p {
+  margin: 4px 0 0 0;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.rightSide {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputRow {
+  display: flex;
+  gap: 20px;
+}
+
+.infoLabel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #444;
+}
+
+.infoInput {
+  margin-top: 6px;
+  padding: 10px 14px;
+  font-size: 0.875rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background-color: #f7f7f7;
+  color: #999;
+}

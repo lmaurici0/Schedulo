@@ -1,0 +1,60 @@
+.searchbox {
+  display: flex;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width:90%;
+}
+
+.field {
+  flex: 1;
+  padding: 12px 20px;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.field:last-child {
+  border-right: none;
+}
+
+label {
+  font-size: 14px;
+  color: #1c1c1c;
+  margin-bottom: 4px;
+  font-family: Poppins;
+}
+
+input[type="text"],
+input[type="date"] {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  padding: 4px 0;
+  font-family: Poppins;
+  color: #A3A3A3;
+}
+
+.searchButton {
+  flex: 0 0 50px;
+  background: #ff385c;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+}
+
+.searchButton:hover {
+  background: #e2274a;
+}
+
+.searchIcon {
+  width: 20px;
+  height: 20px;
+  stroke: white;
+  stroke-width: 2;
+}
